@@ -7,4 +7,3 @@ $SqlAdapter = New-Object System.Data.SqlClient.SqlDataAdapter
 $SqlAdapter.SelectCommand = $SqlCmd
 $DataSet = New-Object System.Data.DataSet
 $SqlAdapter.Fill($DataSet)
-$SqlConnection.Close()
